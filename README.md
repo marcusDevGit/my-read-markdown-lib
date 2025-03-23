@@ -61,17 +61,17 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
 
 Entrada (arquivo Markdown):
 
-    ```markdown
+```markdown
     [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList)
-    ```
+```
 
 Saída:
 
-    ```markdown
-    [
-        {"FileList": "https://developer.mozilla.org/pt-BR/docs/Web/API/FileList"}
-    ]
-    ```
+```markdown
+[
+{"FileList": "https://developer.mozilla.org/pt-BR/docs/Web/API/FileList"}
+]
+```
 
 📝 Licença
 Este projeto está sob a licença ISC.
