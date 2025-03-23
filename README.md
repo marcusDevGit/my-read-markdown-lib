@@ -40,39 +40,38 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
 3. Executando o CLI
    Para extrair links de um arquivo Markdown:
 
-```bash
-npm run cli [texto1.md](http://_vscodecontentref_/11)
-```
+   ```bash
+   npm run cli [texto1.md](http://_vscodecontentref_/11)
+   ```
 
-Para extrair e validar os links:
+   Para extrair e validar os links:
 
-```bash
-npm run cli [texto1.md](http://_vscodecontentref_/12) validate
-```
+   ```bash
+   npm run cli [texto1.md](http://_vscodecontentref_/12) validate
+   ```
 
 4. Executando os Testes
    Para rodar os testes:
 
-```bash
-npm run test
-```
+   ```bash
+   npm run test
+   ```
 
-🧪 Exemplos
+### 🧪 Exemplos
+
 Entrada (arquivo Markdown):
 
-```markdown
-[FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList)
-```
+    ```markdown
+    [FileList](https://developer.mozilla.org/pt-BR/docs/Web/API/FileList)
+    ```
 
 Saída:
 
-```markdown
-[
-{
-"FileList": "https://developer.mozilla.org/pt-BR/docs/Web/API/FileList"
-}
-]
-```
+    ```markdown
+    [
+        {"FileList": "https://developer.mozilla.org/pt-BR/docs/Web/API/FileList"}
+    ]
+    ```
 
 📝 Licença
 Este projeto está sob a licença ISC.
